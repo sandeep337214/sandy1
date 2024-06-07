@@ -1,0 +1,342 @@
+.page-container {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    background-color: #61dafb;
+    padding: 100px 20px;
+    color: white;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5em;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .new-landing-page {
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .new-landing-page h1 {
+    color: #333;
+    font-size: 36px;
+  }
+  
+  .new-landing-page p {
+    color: #666;
+    font-size: 18px;
+  }
+  .landing-page {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .landing-page h1 {
+    color: #333;
+    font-size: 36px;
+  }
+  
+  .landing-page p {
+    color: #666;
+    font-size: 18px;
+  }
+  
+  .cta-buttons {
+    margin-top: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  .signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .signup-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-container form div {
+    margin-bottom: 20px;
+  }
+  
+  .signup-container form label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .signup-container form input[type="text"],
+  .signup-container form input[type="email"],
+  .signup-container form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .signup-container form button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signup-container form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .signup-container p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signup-container p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-container p a:hover {
+    text-decoration: underline;
+  }
+  .signin-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signin-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .signin-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signin-container form div {
+    margin-bottom: 20px;
+  }
+  
+  .signin-container form label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .signin-container form input[type="text"],
+  .signin-container form input[type="email"],
+  .signin-container form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .signin-container form button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signin-container form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .signin-container p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signin-container p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signin-container p a:hover {
+    text-decoration: underline;
+  }
+/* Existing styles */
+
+.signin-container p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signin-container p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signin-container p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling for the "Forgot Password" link */
+  .signin-container .forgot-password-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #dc3545; /* Red color for emphasis */
+    text-decoration: none;
+  }
+  
+  .signin-container .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  .forgot-password-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .forgot-password-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .forgot-password-container form {
+    margin-top: 20px;
+  }
+  
+  .forgot-password-container form div {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .forgot-password-container form label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .forgot-password-container form input[type="email"],
+  .forgot-password-container form input[type="text"],
+  .forgot-password-container form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .forgot-password-container form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .forgot-password-container form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot-password-container p.error-message {
+    color: #dc3545;
+  }
+  
+  .forgot-password-container .back-to-signin-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password-container .back-to-signin-link:hover {
+    text-decoration: underline;
+  }
+  
